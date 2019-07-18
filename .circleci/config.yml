@@ -1,16 +1,11 @@
  version: 2
  jobs:
-   one:
+   build:
      docker:
        - image: circleci/ruby:2.4.1
      steps:
        - checkout
        - run: echo "GIR: Your Head Smells Like a Puppy"
-   two:
-     docker:
-       - image: circleci/ruby:2.4.1
-     steps:
-       - checkout
-       - run: echo "GIR: It was me! I was the turkey all along!"
+
        
    
