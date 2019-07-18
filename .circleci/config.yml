@@ -6,8 +6,8 @@
      steps:
        - checkout
        - run: echo "GIR: Your Head Smells Like a Puppy"
-    build:
-     two:
+   two:
+     docker:
        - image: circleci/ruby:2.4.1
      steps:
        - checkout
