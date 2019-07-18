@@ -12,9 +12,9 @@
      steps:
        - checkout
        - run: echo "GIR- It was me, I was the turkey all the time!"
-workflows:
-  version: 2
-  workflow_1:
-    jobs:
-      - two
-      - one
+ workflows:
+   version: 2
+   one_and_two:
+     jobs:
+       - one
+       - two
