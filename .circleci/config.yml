@@ -5,7 +5,4 @@
        - image: circleci/ruby:2.4.1
      steps:
        - checkout
-       - run: echo "GIR: Your Head Smells Like a Puppy"
-
-       
-   
+       - run: echo "GIR: A first hello"
