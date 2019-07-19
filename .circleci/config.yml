@@ -2,7 +2,7 @@
  jobs:
    one:
      docker:
-       - image: circleci/ruby:2.4.1
+       - image: circleci/python:3.7.3
      steps:
        - checkout
        - run: echo "GIR- Your head smells like a puppy"
@@ -11,7 +11,7 @@
        - image: circleci/ruby:2.4.1
      steps:
        - checkout
-       - run: echo "GIR- It was me, I was the turkey all the time!"
+       - run: echo "GIR- It was me, I was the turkey all the time!!"
        - run: sleep 15
  workflows:
    version: 2
